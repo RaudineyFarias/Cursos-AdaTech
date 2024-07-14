@@ -1,0 +1,35 @@
+.contact-list{
+    position: relative;
+}
+.contact-list h1,h2,h3{
+    top: 0px;
+    position: sticky;
+    background-color: #00ff00;
+}
+.box{
+    height: 10rem;
+    width: 15rem;
+    border: 4px solid red;
+    display: inline-block;
+    /* o inline- block permite que coloque outra coisa ao lado
+    Vale lembrar também que a imagem só encaixa ao lado se ela for inline- block também caso não seja ela não encaixa*/
+    /* border-radius: 4rem; */
+    text-align: center;
+    color: white;
+    background-color: #0000ff;
+}
+.box{
+    position: absolute;
+    top:500px;
+    left:500px;
+}
+/* 
+.box :nth-child(n + 1){ */
+nav.menu{
+
+    position: fixed;
+    background-color: #00ff00;
+    color: white;
+    width: 1000px;
+    /* z-index: 1;  Essa opção sobrepôe os outros elementos*/
+}

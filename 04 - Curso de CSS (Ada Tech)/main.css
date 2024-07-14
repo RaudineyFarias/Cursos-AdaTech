@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* margens da página */
+:root{
+    font-size: 65,2%;
+}
+/*  */
+/* h1{color: #0000ff; 
+    /* background-color: blueviolet; */
+    /*font-style: italic;
+    /* Coloca o estilo da fonte */
+    /* text-decoration: underline; */
+    /* font-size: 96px; */
+    /* font-family: 900; */
+    /* font-size: 9,6rem;}*/ 
+
+ /* modificando o  titulo h1*/
+/* h2{
+    font-size: 3.2rem;
+    }
+    Modificando o Titulo H2 lembrando que REM é para ficar mais acessivel a quem lê */
+.novo-em{
+    font-size: 3.2rem;
+}
+/* Novo modificando o novo texto */
+p{
+    font-size: 18px;
+    /* tamanho da fonte */
+    text-align: justify;
+    /* alinhando o texto */
+    text-indent: 50px;
+    /* Recuo dentro do texto */
+
+}
+/* modificando o texto */
+a:visited {
+    color: #00ff00;
+    /* alterna de cor quando alguém acessa o link */
+}
+a:hover{
+    color:blueviolet;
+    /* deixa o link de outra cor quando passa o mouse em cima dele */
+}
+
+
+.imagem{
+
+    width: 100vw;
+    /* ocupa toda a largura da pagina */
+    height: 100vh;
+    /* ocupa toda a altura da página */
+    background-color: #0000ff;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-thumb.jpg');
+}
+.bg{
+    width: 100%;
+    height: 500px;
+    background-color: #0000ff;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-thumb.jpg');
+    background-size:cover;
+    /* o formato da imagem */
+    background-repeat: no-repeat;
+    /*  */
+    background-attachment: fixed;
+}
+
+table, td, th{
+    border: 1x solid black;
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table th {
+    background-color: steelblue;
+    color: white;
+}
+table{
+    font-size: 1.4rem;
+    border-collapse: separate;
+}
+table tr:nth-child(2n + 1){
+    background-color: #aaa;
+}
+
+
+/* Listas não numeradas e lista numeradas */
+ol, ul{
+    padding-left: 3.4rem;
+}
+ul{
+    list-style: circle;
+    
+}
+ol{
+    list-style: decimal-leading-zero;
+    /* começa com o numero zero na frente do numero se usa mais quando tem mais de dez numeros */
+}
+
+/* bloquinho Cinza na página */
+.box{
+    height: 10rem;
+    width: 15rem;
+    border: 4px solid red;
+    display: inline-block;
+    /* o inline- block permite que coloque outra coisa ao lado
+    Vale lembrar também que a imagem só encaixa ao lado se ela for inline- block também caso não seja ela não encaixa*/
+    /* border-radius: 4rem; */
+    text-align: center;
+    color: white;
+    background-color: #0000ff;
+}
+.box :nth-child(1){
+    position: absolute;
+}
+
+/* A imagem ao lado do bloco */
+.contact-list{
+    position: relative;
+}
+.contact-list h2{
+    top: 0px;
+    position: sticky;
+    background-color: #00ff00;
+}
+.imagem{
+    height: 10rem;
+    width: 50rem;
+    object-fit: cover; 
+    /* Essa opção não permite que a imagem fique desconfigurada */
+}
+
+
+

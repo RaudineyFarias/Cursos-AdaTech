@@ -1,0 +1,14 @@
+:root{
+
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/712/712/13/artwork-map-water-drops-digital-art-wallpaper-preview.jpg");
+    width: 100dvw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+
+    color: white;
+    height: 300px;
+    width: 450px;
+}
